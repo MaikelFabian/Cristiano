@@ -26,10 +26,10 @@
     gap: 20px;
 }
 .clase{
-    margin: 100px 80px;
+    margin: 150px 80px 100px;
 }
 .face{
-    width: 100px;
+    width: 50px;
     margin: 0 10px ;
     margin-top: 20px;
 }
@@ -71,6 +71,7 @@ nav a{
     color: black;
     text-decoration: none;
     transition: 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
   
