@@ -1,15 +1,42 @@
-.esta{
+.contenedor-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contenedor de la tabla */
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+/* Estilo general de la tabla */
+table {
+    width: 100%;
+    min-width: 1000px;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos específicos para tu tabla */
+.esta {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-
 }
-table{
+
+table {
     justify-content: center;
     display: flex;
-
-
-
 }
 
 table, tr, th, td {
@@ -19,22 +46,25 @@ table, tr, th, td {
     border-collapse: collapse;
     justify-content: center;
 }
+
 th, td {
     font-family: sans-serif;
-    padding: 10px 100px;
+    padding: 10px 20px;
     text-align: center;
     justify-content: center;
 }
 
-.clase{
+.clase {
     margin: 100px 80px;
 }
-.face{
-    width: 50px;
-    margin: 0 10px ;
+
+.face {
+    width: 40px;
+    margin: 0 10px;
     margin-top: 20px;
 }
-.cr{
+
+.cr {
     display: flex;
     justify-content: center;
 }

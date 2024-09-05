@@ -1,33 +1,37 @@
-.redes{
+.redes {
     justify-content: center;
     text-align: center;
     height: 300px;
     padding: 12px;
     background-image: url("https://media.revistagq.com/photos/64648f8c244ebcafee84130b/16:9/w_2560%2Cc_limit/cr7.jpeg.jpg");
-    
-    
+    background-size: cover;
+    background-position: center;
 }
-.avatar{
+
+.avatar {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
 }
-.hola{
+
+.hola {
     margin-top: 100px;
 }
-.clase{
-    margin: 100px 80px;
+
+.clase {
+    margin: 50px 20px;
 }
-.face{
-    width: 50px;
-    margin: 0 10px ;
+
+.face {
+    width: 40px;
+    margin: 0 5px;
     margin-top: 20px;
 }
-.cr{
+
+.cr {
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 header{
     display: flex;

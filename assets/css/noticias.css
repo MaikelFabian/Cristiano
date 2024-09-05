@@ -1,9 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    
+    box-sizing: border-box;
 }
+
+body {
+    font-size: 16px;
+}
+
+
 .img{
     display:flex ;
     width: 650px;
@@ -12,12 +18,14 @@
     border-radius: 25px;
 
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
-.fff{
+
+.fff {
     padding: 15px;
     text-align: center;
     display: flex;
@@ -25,20 +33,25 @@
     align-items: center;
     gap: 20px;
 }
-.clase{
-    margin: 150px 80px 100px;
+
+.clase {
+    margin: 100px 10%;
 }
-.face{
-    width: 50px;
-    margin: 0 10px ;
+
+.face {
+    width: 40px;
+    margin: 0 10px;
     margin-top: 20px;
 }
-.cr{
+
+.cr {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
